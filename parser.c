@@ -75,6 +75,10 @@ int lookup(char ch)
         addChar();
         nextToken = DIV_OP;
         break;
+    case '=':
+        addChar();
+        nextToken = ASSIGN_OP;
+        break;
     default:
         addChar();
         nextToken = EOF;

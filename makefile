@@ -9,4 +9,4 @@ parser.o: parser.c
 	$(CC) -c parser.c
 
 clean:
-	rm -rf *.o
+	rm -rf *.o parser
